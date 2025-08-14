@@ -11,3 +11,5 @@ interface PlaceService {
     fun searchPlaces(@Query("query") query: String): retrofit2.Call<PlaceResponse>
 
 }
+
+
