@@ -42,8 +42,7 @@ android {
 }
 
 dependencies {
-
-
+    implementation(libs.swiperefreshlayout)
     implementation(libs.lifecycle.extensions)
     implementation(libs.lifecycle.livedata.ktx)
     implementation(libs.retrofit)
